@@ -15,7 +15,7 @@
     --darkGrayColor: #343A40;
 }
 
-/***************Mobile & Tablet******************/
+/***************Mobile******************/
 
 body {
     background: #F3F5FC;
@@ -82,4 +82,43 @@ footer>a>img {
     border-radius: 25px;
     margin-left: 15px;
     margin-top: 0.5vh;
+}
+
+
+/***************Tablet******************/
+
+@media (min-width: 768px) {
+    nav {
+        padding-left: 5%;
+        padding-top: 8%;
+    }
+    
+    main {
+        height: 25vh;
+    }
+    
+    #start_btn {
+        width: 50vw;
+        height: 10vh;
+    }
+    
+    #add_btn {
+        width: 40vw;
+        height: 5vh;
+    }
+}
+
+/***************Desktop******************/
+
+
+@media (min-width: 1440px) {
+    #start_btn {
+        width: 25vw;
+        height: 10vh;
+    }
+    
+    #add_btn {
+        width: 20vw;
+        height: 5vh;
+    }
 }
