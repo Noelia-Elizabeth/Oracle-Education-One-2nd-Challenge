@@ -112,6 +112,10 @@ footer>a>img {
     main {
         height: 25vh;
     }
+
+    .game_started_main {
+        height: 50vh;
+    }
     
     .button_blue {
         width: 50vw;
@@ -128,6 +132,11 @@ footer>a>img {
 
 
 @media (min-width: 1440px) {
+
+    .game_started_main {
+        height: 40vh;
+    }
+
     .button_blue {
         width: 25vw;
         height: 10vh;
